@@ -23,6 +23,7 @@ namespace compito
         string[] odioWindowsEMicrosoftEVisualStudio = new string[1000];
         private void Form2_Load(object sender, EventArgs e)
         {
+            button1.Visible = false;
             StreamReader sr = new StreamReader("./menu.txt"); ;
             string y = sr.ReadLine();
             int count = 0;
@@ -59,6 +60,7 @@ namespace compito
         {
             string x = listBox1.SelectedItem.ToString();
             listBox2.Items.Add(x);
+            button1_Click(sender, e);
 
         }
 
@@ -110,5 +112,8 @@ namespace compito
 
             
         }
+
+
+
     }
 }

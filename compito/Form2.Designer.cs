@@ -35,6 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -84,10 +85,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(928, 397);
+            this.button1.Location = new System.Drawing.Point(-1, -1);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 50);
+            this.button1.Size = new System.Drawing.Size(10, 10);
             this.button1.TabIndex = 6;
             this.button1.Text = "Calcolo totale";
             this.button1.UseVisualStyleBackColor = true;
@@ -95,10 +96,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(928, 509);
+            this.button2.Location = new System.Drawing.Point(917, 509);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(126, 107);
+            this.button2.Size = new System.Drawing.Size(137, 107);
             this.button2.TabIndex = 7;
             this.button2.Text = "Invia ordine";
             this.button2.UseVisualStyleBackColor = true;
@@ -108,18 +109,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(318, 397);
+            this.label2.Location = new System.Drawing.Point(381, 398);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(304, 42);
             this.label2.TabIndex = 8;
             this.label2.Text = "Riepilogo ordine";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(912, 426);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 25);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Totale conto";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 629);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -144,5 +157,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
     }
 }
