@@ -107,6 +107,8 @@ namespace compito
                 PaoloCasablanca[i] = Convert.ToDecimal(w[i]);
             }
             label3.Text = Convert.ToString(PaoloCasablanca.Sum());
+
+            
         }
     }
 }
