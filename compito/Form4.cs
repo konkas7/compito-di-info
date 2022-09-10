@@ -21,14 +21,46 @@ namespace compito
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            this.Visible = false;
-            form3.ShowDialog();
-            this.Visible = true;
+            
 
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
         {
             Form5 form5 = new Form5();
             this.Visible = false;
@@ -36,14 +68,14 @@ namespace compito
             this.Visible = true;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void rjButton3_Click(object sender, EventArgs e)
         {
-            StreamReader sr = new StreamReader("./menu.txt");;
+            StreamReader sr = new StreamReader("./menu.txt"); ;
             string y = sr.ReadLine();
-            string stampa= null;
+            string stampa = null;
             while (y != null)
             {
-                if(y.Split(';')[4] == "True")
+                if (y.Split(';')[4] == "True")
                 {
                     string n = $"Nome: {y.Split(';')[0]}\nPrezzo: {y.Split(';')[1]}\nIngredienti: {y.Split(';')[2]}\nPortata: {y.Split(';')[3]}";
                     stampa += n + "\n\n";
@@ -53,15 +85,7 @@ namespace compito
             MessageBox.Show(stampa);
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form6 form6 = new Form6();
-            this.Visible = false;
-            form6.ShowDialog();
-            this.Visible = true;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void rjButton4_Click(object sender, EventArgs e)
         {
             Form7 form7 = new Form7();
             this.Visible = false;
@@ -69,7 +93,15 @@ namespace compito
             this.Visible = true;
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void rjButton5_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            this.Visible = false;
+            form6.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void rjButton6_Click(object sender, EventArgs e)
         {
             Form8 form7 = new Form8();
             this.Visible = false;
@@ -77,9 +109,12 @@ namespace compito
             this.Visible = true;
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private void rjButton1_Click_1(object sender, EventArgs e)
         {
-
+            Form3 form3 = new Form3();
+            this.Visible = false;
+            form3.ShowDialog();
+            this.Visible = true;
         }
     }
 }

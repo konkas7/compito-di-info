@@ -81,7 +81,7 @@ namespace compito
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             //sicao
         }
 
@@ -113,7 +113,9 @@ namespace compito
             
         }
 
-
-
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

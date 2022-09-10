@@ -28,85 +28,140 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.rjButton2 = new compito.RJBUTTON.RJButton();
+            this.rjButton3 = new compito.RJBUTTON.RJButton();
+            this.rjButton4 = new compito.RJBUTTON.RJButton();
+            this.rjButton5 = new compito.RJBUTTON.RJButton();
+            this.rjButton6 = new compito.RJBUTTON.RJButton();
+            this.rjButton1 = new compito.RJBUTTON.RJButton();
             this.SuspendLayout();
             // 
-            // button1
+            // rjButton2
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Aggiunta";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.rjButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton2.BorderRadius = 20;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(169, 15);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(145, 64);
+            this.rjButton2.TabIndex = 7;
+            this.rjButton2.Text = "Ricerca";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
             // 
-            // button2
+            // rjButton3
             // 
-            this.button2.Location = new System.Drawing.Point(127, 70);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 52);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Modifica";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.rjButton3.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton3.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton3.BorderRadius = 20;
+            this.rjButton3.BorderSize = 0;
+            this.rjButton3.FlatAppearance.BorderSize = 0;
+            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton3.ForeColor = System.Drawing.Color.White;
+            this.rjButton3.Location = new System.Drawing.Point(323, 15);
+            this.rjButton3.Name = "rjButton3";
+            this.rjButton3.Size = new System.Drawing.Size(145, 64);
+            this.rjButton3.TabIndex = 8;
+            this.rjButton3.Text = "Visualizza";
+            this.rjButton3.TextColor = System.Drawing.Color.White;
+            this.rjButton3.UseVisualStyleBackColor = false;
+            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
             // 
-            // button3
+            // rjButton4
             // 
-            this.button3.Location = new System.Drawing.Point(127, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 52);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Ricerca";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.rjButton4.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton4.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton4.BorderRadius = 20;
+            this.rjButton4.BorderSize = 0;
+            this.rjButton4.FlatAppearance.BorderSize = 0;
+            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton4.ForeColor = System.Drawing.Color.White;
+            this.rjButton4.Location = new System.Drawing.Point(16, 86);
+            this.rjButton4.Name = "rjButton4";
+            this.rjButton4.Size = new System.Drawing.Size(146, 64);
+            this.rjButton4.TabIndex = 9;
+            this.rjButton4.Text = "Elimina";
+            this.rjButton4.TextColor = System.Drawing.Color.White;
+            this.rjButton4.UseVisualStyleBackColor = false;
+            this.rjButton4.Click += new System.EventHandler(this.rjButton4_Click);
             // 
-            // button4
+            // rjButton5
             // 
-            this.button4.Location = new System.Drawing.Point(242, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 52);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Visualizza";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.rjButton5.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton5.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton5.BorderRadius = 20;
+            this.rjButton5.BorderSize = 0;
+            this.rjButton5.FlatAppearance.BorderSize = 0;
+            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton5.ForeColor = System.Drawing.Color.White;
+            this.rjButton5.Location = new System.Drawing.Point(169, 86);
+            this.rjButton5.Name = "rjButton5";
+            this.rjButton5.Size = new System.Drawing.Size(145, 64);
+            this.rjButton5.TabIndex = 10;
+            this.rjButton5.Text = "Modifica";
+            this.rjButton5.TextColor = System.Drawing.Color.White;
+            this.rjButton5.UseVisualStyleBackColor = false;
+            this.rjButton5.Click += new System.EventHandler(this.rjButton5_Click);
             // 
-            // button5
+            // rjButton6
             // 
-            this.button5.Location = new System.Drawing.Point(12, 70);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 52);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Elimina";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.rjButton6.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton6.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton6.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton6.BorderRadius = 20;
+            this.rjButton6.BorderSize = 0;
+            this.rjButton6.FlatAppearance.BorderSize = 0;
+            this.rjButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton6.ForeColor = System.Drawing.Color.White;
+            this.rjButton6.Location = new System.Drawing.Point(323, 86);
+            this.rjButton6.Name = "rjButton6";
+            this.rjButton6.Size = new System.Drawing.Size(145, 64);
+            this.rjButton6.TabIndex = 11;
+            this.rjButton6.Text = "Recupera";
+            this.rjButton6.TextColor = System.Drawing.Color.White;
+            this.rjButton6.UseVisualStyleBackColor = false;
+            this.rjButton6.Click += new System.EventHandler(this.rjButton6_Click);
             // 
-            // button6
+            // rjButton1
             // 
-            this.button6.Location = new System.Drawing.Point(242, 70);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(109, 52);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Recupera";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.rjButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(16, 15);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(146, 64);
+            this.rjButton1.TabIndex = 12;
+            this.rjButton1.Text = "Aggiunta";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click_1);
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 132);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(492, 162);
+            this.Controls.Add(this.rjButton1);
+            this.Controls.Add(this.rjButton6);
+            this.Controls.Add(this.rjButton5);
+            this.Controls.Add(this.rjButton4);
+            this.Controls.Add(this.rjButton3);
+            this.Controls.Add(this.rjButton2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form4";
             this.Text = "Admin";
             this.Load += new System.EventHandler(this.Form4_Load);
@@ -115,12 +170,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private RJBUTTON.RJButton rjButton2;
+        private RJBUTTON.RJButton rjButton3;
+        private RJBUTTON.RJButton rjButton4;
+        private RJBUTTON.RJButton rjButton5;
+        private RJBUTTON.RJButton rjButton6;
+        private RJBUTTON.RJButton rjButton1;
     }
 }

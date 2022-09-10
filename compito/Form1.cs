@@ -28,6 +28,21 @@ namespace compito
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
             if (textBox1.Text == "admin" && textBox2.Text == "password")
             {
                 Form4 form4 = new Form4();
@@ -41,11 +56,6 @@ namespace compito
                 textBox1.Text = "";
                 MessageBox.Show("Valori inseriti errati");
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
